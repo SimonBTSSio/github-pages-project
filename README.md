@@ -1,30 +1,19 @@
-# GitHub pages project
+# Application web - PHP:7.2-apache / mysql:5.7 / phpmyadmin
 
-Contexte:
+Ce repository github vous permet de faire une application web grâce à docker, vous retrouverez avec ceci mysql 5.7 et phpmyadmin.
 
-Vous êtes un lead dev qui met en place un repository pour son équipe, toutes les bonnes pratiques doivent être mise en place pour garantir une bonne gestion de projet.
+## Démarrer le projet:
 
-Ce qu'il faut faire:
-- [ ] Sujet à [cette adresse](https://github.com/quentinhermiteau/github-pages-project)
-- [ ] Mettre en place toutes les bonnes pratiques autour du git flow
-- [ ] Rédiger un Readme (nom du projet, commande pour setup le projet, etc)
-- [ ] Mettre en place des templates pour les issues et les pull requests
-- [ ] Mettre en place une gestion de projet (+ labels)
-- [ ] Mettre en place une github pages avec un thème
-- [ ] Le projet devra contenir au moins 1 branche feature et 1 branche fix
-- [ ] Les commits doivent être correctement rédigés (ET SIGNÉS)
-- [ ] Tout travail doit être répertorié dans les issues et suivi avec la gestion de projet de GitHub
+`docker-compose up` Vous permettra de démarrer votre application web une fois le repository cloné sur votre machine.
 
-Règles pour le projet:
-- Projet en individuel
-- Noté sur 7
+## Se rendre sur la page d'accueil:
 
-Notation:
-| à faire | point |
-| --- | --- |
-| Gitflow | 1 |
-| Readme | 1,5 |
-| templates | 1,5 |
-| Gestion de projet | 1 |
-| commits + signés | 1 |
-| Github pages | 1 |
+Une fois l'application web démarré vous pourrez aller sur la page d'accueil de votre appli en allant à cette adresse sur votre navigateur préféré [127.0.0.1](http://127.0.0.1).
+
+## Commencer à faire développer votre application:
+
+Il vous suffira d'aller dans le dossier www/ de votre repository, ici vous pourrez ajouter vos propres pages, styles, scripts ...
+
+## Arreter son pojet :
+
+`docker-compose down` Vous permettra d'arrêter votre projet.
